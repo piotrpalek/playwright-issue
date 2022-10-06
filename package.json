@@ -1,13 +1,13 @@
 {
   "name": "template-hcp",
   "version": "1.0.0",
-  "type": "module",
   "license": "MIT",
   "scripts": {
     "start": "yarn test-ct",
     "test-ct": "playwright test -c playwright-ct.config.ts"
   },
   "dependencies": {
+    "lodash-es": "^4.17.21",
     "moment": "^2.13.0",
     "moment-timezone": "^0.5.4",
     "react": "^17.0.2",
@@ -22,6 +22,7 @@
     "@babel/preset-typescript": "7.16.7",
     "@playwright/experimental-ct-react": "^1.26.1",
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.7",
+    "@types/lodash-es": "^4.17.6",
     "@types/moment-timezone": "^0.5.30",
     "@types/node": "^16.11.63",
     "@types/react": "17.0.2",
